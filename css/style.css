@@ -13,7 +13,7 @@
 	max-width:37.5rem;     				/* 600px */
     text-align:center;
 	margin:0 auto;
-	padding:var(--spacing-xl) var(--spacing-m) 0 var(--spacing-m);
+	padding:0 var(--spacing-m) 0 var(--spacing-m);
 	box-sizing:border-box;
 }
 .container-left {
@@ -51,7 +51,7 @@
 	padding:0;
 	background-color:#ffffff;
 	color:#1a1a1a;
-	font-family:"Open Sans",system-ui;
+	font-family:"Roboto Slab",system-ui;
     font-weight:400;
 	line-height:1.6;
 }
@@ -79,8 +79,8 @@
 
 /* Avatar */
 .avatar {
-	width: 8rem;             /* 128px */
-	height: 8rem;
+	width: 16rem;             /* 128px */
+	height: 16rem;
 	border-radius: 50%;
 	object-fit: cover;
 	background-position: center;
@@ -215,7 +215,7 @@ a:hover {
 	outline-offset: 2px;
   }
 :root.theme-dark body {
-	background-color:#121212;
+	background-color:#0a0a0a;
 	color:#ffffff;
 }
 :root.theme-dark a:not(.button) {
@@ -298,29 +298,8 @@ ul li {
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @font-face {
 	font-display:swap;
-	font-family:'Open Sans';
+	font-family:'Roboto Slab';
 	font-style:normal;
-	font-weight:400;
-	src:url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2') format('woff2');
-}
-@font-face {
-	font-display:swap;
-	font-family:'Open Sans';
-	font-style:normal;
-	font-weight:600;
-	src:url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-600.woff2') format('woff2');
-}
-@font-face {
-	font-display:swap;
-	font-family:'Open Sans';
-	font-style:normal;
-	font-weight:700;
-	src:url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-700.woff2') format('woff2');
-}
-@font-face {
-	font-display:swap;
-	font-family:'Open Sans';
-	font-style:normal;
-	font-weight:800;
-	src:url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.woff2') format('woff2');
+	font-weight:400 600 700 800;
+	src:url('../fonts/RobotoSlab-VariableFont_wght.ttf') format('truetype');
 }

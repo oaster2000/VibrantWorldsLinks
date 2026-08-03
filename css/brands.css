@@ -17,7 +17,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button:hover,button:hover {
 	filter:brightness(90%);
-	transform:translateY(-1px);
+	transform:scale(1.05);
 }
 
 /* Button Icons
@@ -32,8 +32,7 @@
 /* Default */
 .button.button-default {
 	--button-text:#ffffff;
-	--button-background:#2457F5;
-	--button-border:1px solid #ffffff;
+	--button-background:rgb(125, 50, 125);
 }
 
 /* Amazon */
@@ -294,8 +293,7 @@
 /* Ko-fi */
 .button-ko-fi {
 	--button-text:#ffffff;
-	--button-background:#000000;
-  --button-border:1px solid #FFFFFF;
+	--button-background:#202020;
 }
 
 /* Last.fm */
@@ -596,6 +594,12 @@
 	--button-background:#3858E9;
 }
 
+/* worldanvil */
+.button-wa {
+	--button-text:#ffffff;
+	--button-background:#880606;
+}
+
 /* X */
 .button-x {
 	--button-text:#FFFFFF;
@@ -607,14 +611,12 @@
 .button-yt {
 	--button-text:#ffffff;
 	--button-background:#282828;
-	--button-border:1px solid #FFFFFF;
 }
 
 /* YouTube Music */
 .button-yt-music {
 	--button-text:#ffffff;
 	--button-background:#282828;
-	--button-border:1px solid #FFFFFF;
 }
 
 /* YouTube Alt */
